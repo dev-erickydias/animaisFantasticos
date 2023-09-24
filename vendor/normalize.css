@@ -144,9 +144,16 @@
 /** 
  * Remove a borda das imagens dentro dos links no IE 10. 
  */
-  
+  ul {
+    list-style: none;
+  }
+  a {
+    text-decoration: none;
+  }
   img {
     border-style: none;
+    display: block;
+    max-width: 100%;
   }
   
   /* Formulários
